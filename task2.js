@@ -14,9 +14,9 @@ while (work === true) {
     break;
   } else {
     console.log(
-      `Ответ: ${parseInt(num1) + parseInt(num2)}, ${(
+      `Ответ: ${parseInt(num1) + parseInt(num2)}, ${
         parseInt(num1) / parseInt(num2)
-      ).toFixed(1)}`
+      }`
     );
     work = false;
   }
